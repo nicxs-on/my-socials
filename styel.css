@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(design/astro\ world.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Inter", sans-serif;
+}
+
+main { 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(253, 200, 25, 0.966);
+    font-family: "Inter", sans-serif;
+    margin-top: 160px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.photo img {
+    display: flex;
+    width: 100px;
+    border-radius: 90px;
+
+}
+
+.presentation {
+    line-height:5px;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.location p {
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.socials {
+    display: flex;
+    width: 275px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 20%);
+}
+
+.socials .github {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.socials .linkedin {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.socials .frontendmentor {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.socials .twitter {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.socials .instagram {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.socials .github:hover {
+    background-color: hsla(241, 36%, 40%, 0.384);
+}
+
+.socials .linkedin:hover {
+    background-color: hsla(241, 36%, 40%, 0.384);
+}
+
+.socials .frontendmentor:hover {
+    background-color: hsla(241, 36%, 40%, 0.384);
+}
+
+.socials .twitter:hover {
+    background-color: hsla(241, 36%, 40%, 0.384);
+}
+
+.socials .instagram:hover {
+    background-color: hsla(241, 36%, 40%, 0.384);
+}
+
+.socials .github a {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.socials .linkedin a {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.socials .frontendmentor a {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.socials .twitter a {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.socials .instagram a {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
